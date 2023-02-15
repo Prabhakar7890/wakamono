@@ -1,0 +1,18 @@
+h3{
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    margin-top: 20px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(249, 249, 247);
+   box-shadow: 0 4px 8px 0 #52b2bf, 0 6px 20px 0 #52b2bf;
+}
+.row{
+    margin: 10px;
+}
+option{
+    padding: 3px;
+    font-size: 15px;
+}

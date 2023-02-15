@@ -1,0 +1,46 @@
+<div class="row">
+    <h2 class="col-md-2">
+        Hello Shinobi
+    </h2>
+    <div class="offset-md-2 col-md-2">
+        <p>{{request}}</p>
+        <input [(ngModel)]="request" typeaheadOptionField="reqo" [typeahead]="list" class="form-control" type="search" placeholder="search....."/>
+    </div>
+    <div class="offset-md-2 col-md-2"> 
+        <button class=" btn btn-secondary">Search</button>
+    </div>
+</div>
+
+
+<div fxLayout="row"  class="row" fxLayoutAlign="space-around center" >
+    <div fxFlex="100" fxLayoutAlign="space-around center" >
+        <div fxFlex="27" class="card">
+            <h4>iKio Ichigo</h4>
+            <button class="button" routerLink="/register" >Register</button>
+        </div>
+        <div fxFlex="27" class="card">
+            <h4>Theories</h4>
+            <button class="button">Add</button>
+        </div>
+        <div fxFlex="27" class="card">
+            <h4>My Anime</h4>
+            <button class="button">Teller</button>
+        </div>
+    </div>
+</div>
+<div fxLayout="row" class="row" fxLayoutAlign="space-around center" >
+    <div fxFlex="100" fxLayoutAlign="space-around center" >
+        <div fxFlex="27" class="card">
+            <h4>Favorites</h4>
+            <button class="button">Teller</button>
+        </div>
+        <div fxFlex="27" class="card">
+            <h4>Blogs</h4>
+            <button class="btn button">Click to Blog</button>
+        </div>
+        <div fxFlex="27" class="card">
+            <h4>Upcomming</h4>
+            <button class="button">Teller</button>
+        </div>
+    </div>
+</div>

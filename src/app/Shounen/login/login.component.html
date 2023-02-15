@@ -1,0 +1,22 @@
+<div class="card col-md-4 offset-4">
+    <h3>Shinobu Tōroku</h3>
+    <form [formGroup]="loginForm" (ngSubmit)="submit(loginForm.value)">
+        <div class="col-md-8 offset-md-2">
+            <div class="row form-group">
+                <label class="control-label col-md-5">Alias</label>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" formControlName="title">
+                </div>
+            </div>
+            <div class="row form-group">
+                <label class="control-label col-md-5">Password</label>
+                <div class="col-md-5">
+                    <input type="password" class="form-control" formControlName="password">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 text-center" style="margin-bottom:30px;">
+            <button class="btn btn-success" type="submit">Login</button>
+          </div>
+    </form>
+</div>

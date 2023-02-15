@@ -1,0 +1,14 @@
+.card{
+    height: 230px;
+    margin: 20px;
+    max-width: 410px;
+    display: grid;
+}
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+h4{
+    justify-self: center;
+}
+
